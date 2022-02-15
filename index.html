@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>First Website</title>
+        <style>
+            body {
+                background: rgb(255, 186, 186);
+                color: rgb(255, 255, 255);
+                padding: 10px;
+                font-family: arial;
+            }
+            #all-contents {
+              max-width: 800px;
+                margin: auto;
+            }
+         
+            /* navigation menu */
+            nav {
+                background: rgb(153, 168, 255);
+               margin: 0 auto;
+                display: flex;
+                padding: 10px;
+                border-radius: 30px 30px 0px 0px;
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+                margin: 0;
+            }
+            #nav-ul {
+                list-style-image: none;
+            }
+            .nav-li {
+                display: inline-block;
+                padding: 0 10px;
+                background-color: rgb(89, 99, 156);
+                border-radius: 30px;
+            
+            }
+            .nav-lj {
+                display: inline-block;
+                padding: 0 10px;
+                color: rgb(0, 0, 0)
+
+            }
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+         
+            /* main container area beneath menu */
+            main {
+                background: rgb(192, 255, 179);
+                display: flex;
+                border-radius: 0px 0px 30px 30px;
+                
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 12px;
+            }
+            .sidebar-img {
+                width: 200px;
+                length:200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            #interests {
+                border: 10px rgb(240, 255, 185) dotted;
+                padding: auto;
+                border-radius: 10%
+            }
+            h2, h3 {
+                margin: 0px;
+            }
+         </style>
+         
+    </head>
+    
+    <body>
+        <div id="all-contents">
+            <nav>
+                <h1>
+                    First Website
+                </h1>
+                <ul id="nav-ul">
+                    <li class="nav-li">
+                        <a href="https://5500-garrylmullins-garrylmull-g6abriy2df5.ws-us30.gitpod.io/index.html">Home</a>
+                    </li>
+                    <li class="nav-lj">
+                        <a href="https://5500-garrylmullins-garrylmull-g6abriy2df5.ws-us30.gitpod.io/portfolio.html">Portfolio</a>
+                    </li>
+                </ul>
+            </nav>
+            <main>
+               <!-- Main Content -->
+                <div>
+                    <h2>
+                        Garry L. Mullins III
+                    </h2>
+                    <p>
+                        Student @ STA High
+                    </p>
+                    <!-- Interests section -->
+                    <div id="interests">
+                        <h3>
+                            Interests
+                        </h3>
+                        <ul>
+                            <li>Coding</li>
+                            <li>Playing Games</li>
+                            <li>Cats</li>
+                            <li>Dogs</li>
+                        </ul>
+                    </div>
+                </div>
+               <!-- sidebar -->
+                <div class="sidebar">
+                    <img class="sidebar-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk47D6iWB70ycCyVAMtPDZMFZbIQi6qn5ZkmE9yG6L1UE57m2bxiLFf6L6agjWrQ0_SZI:https://i.natgeofe.com/n/46b07b5e-1264-42e1-ae4b-8a021226e2d0/domestic-cat_thumb_square.jpg&usqp=CAU">
+                    <img class="sidebar-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Uiy-5lDV8xPcpy32U3gx7uqXLmHhi1tNt5qnJgaCCgc6RiCjiNePMTyVgVF4wrDqjgQ:https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/322868_1100-800x825.jpg&usqp=CAU">
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
